@@ -4,20 +4,10 @@ const nextConfig = {
     ignoreBuildErrors: true
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'lovely-flamingo-139.convex.cloud'
-      },
-      {
-        protocol: 'https',
-        hostname: 'sleek-capybara-771.convex.cloud'
-      },
-      {
-        protocol: 'https',
-        hostname: 'img.clerk.com'
-      },
-    ]
+    domains: [
+      'perceptive-wildebeest-776.convex.cloud',
+      'img.clerk.com'
+    ],
   }
 };
 

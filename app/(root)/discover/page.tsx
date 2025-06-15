@@ -15,7 +15,7 @@ const Discover = ({ searchParams: { search} }: { searchParams : { search: string
     <div className="flex flex-col gap-9">
       <Searchbar />
       <div className="flex flex-col gap-9">
-        <h1 className="text-20 font-bold text-white-1">
+        <h1 className="text-3xl font-semibold text-white-1 mb-8">
           {!search ? 'Discover Trending Podcasts' : 'Search results for '}
           {search && <span className="text-white-2">{search}</span>}
         </h1>
