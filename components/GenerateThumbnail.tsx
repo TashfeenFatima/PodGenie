@@ -101,7 +101,7 @@ const GenerateThumbnail = ({ setImage, setImageStorageId, image, imagePrompt, se
       {isAiThumbnail ? (
         <div className="flex flex-col gap-5">
           <div className="mt-5 flex flex-col gap-2.5">
-            <Label className="text-16 font-bold text-white-1">
+            <Label className="text-lg font-semibold text-white-1">
               AI Prompt to generate Thumbnail
             </Label>
             <Textarea 

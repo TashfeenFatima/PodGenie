@@ -151,7 +151,7 @@ const CreatePodcast = () => {
 
   return (
     <section className="mt-10 flex flex-col">
-      <h1 className="text-3xl font-semibold text-white-1 ">Create Podcast</h1>
+      <h1 className="text-4xl font-extrabold text-white-1 mb-6 ">Let’s Podcast</h1>
 
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="mt-12 flex w-full flex-col">
@@ -161,7 +161,7 @@ const CreatePodcast = () => {
               name="podcastTitle"
               render={({ field }) => (
                 <FormItem className="flex flex-col gap-2.5">
-                  <FormLabel className="text-16 font-bold text-white-1">Title</FormLabel>
+                  <FormLabel className="text-lg font-semibold text-white-1 tracking-wide">Title</FormLabel>
                   <FormControl>
                     <Input className="input-class focus-visible:ring-offset-orange-1" placeholder="Provide a podcast title" {...field} />
                   </FormControl>
@@ -171,7 +171,7 @@ const CreatePodcast = () => {
             />
 
             <div className="flex flex-col gap-2.5">
-              <Label className="text-16 font-bold text-white-1">Select AI Voice</Label>
+              <Label className="text-lg font-semibold text-white-1">Select AI Voice</Label>
               <Select onValueChange={(value) => setVoiceType(value)}>
                 <SelectTrigger className={cn("text-16 bg-black-1 text-gray-1 focus-visible:ring-offset-orange-1")}>
                   <SelectValue placeholder="Select AI Voice" className="placeholder:text-gray-1 " />
@@ -191,7 +191,7 @@ const CreatePodcast = () => {
               name="podcastDescription"
               render={({ field }) => (
                 <FormItem className="flex flex-col gap-2.5">
-                  <FormLabel className="text-16 font-bold text-white-1">Description</FormLabel>
+                  <FormLabel className="text-lg font-semibold text-white-1">Description</FormLabel>
                   <FormControl>
                     <Textarea className="input-class focus-visible:ring-offset-orange-1" placeholder="Write a short podcast description" {...field} />
                   </FormControl>

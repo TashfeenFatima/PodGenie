@@ -15,7 +15,7 @@
   <h3 align="center">AI Podcast Platform</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Build this project step by step with Me!!
     </div>
 </div>
 
@@ -1292,7 +1292,7 @@ const PodcastPlayer = () => {
       <Progress
         value={(currentTime / duration) * 100}
         className="w-full"
-        max={duration}
+        
       />
       <section className="glassmorphism-black flex h-[112px] w-full items-center justify-between px-4 max-md:justify-center max-md:gap-5 md:px-12">
         <audio
